@@ -47,9 +47,9 @@ function Facebook(accessToken, groupId)
         formPublish.append('message',
             `# TIN TỨC BUỔI TRƯA ${date}\n` +
             '\n' +
-            '## thông tin\n' +
+            'thông tin\n' +
             '* Bài viết được tự động đăng lúc 12 giờ trưa hàng ngày\n' +
-            '* Đây là post tự động được tạo bởi Lerni và lấy dữ liệu từ VnExpress qua RSS');
+            '* Đây là post tự động lấy dữ liệu từ VnExpress qua RSS');
         formPublish.append('formatting', 'MARKDOWN');
 
         for (let i = 0; i < images.length ; i++) {
